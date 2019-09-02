@@ -1,0 +1,8 @@
+.App {
+  min-height: 100vh;
+  background: rgb(167, 164, 164);
+}
+.main-content {
+  width: 80%;
+  margin: auto;
+}

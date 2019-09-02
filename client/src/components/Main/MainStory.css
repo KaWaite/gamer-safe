@@ -1,0 +1,20 @@
+.main {
+  color: white;
+  padding: 0;
+  margin-top: 2rem;
+}
+.cell {
+  background-image: url("../../images/the_last_of_us_part_2-6.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  -webkit-box-shadow: -4px 9px 26px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 9px 26px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 9px 26px -3px rgba(0, 0, 0, 0.75);
+}
+.inner {
+  padding: 3rem;
+}
+#title {
+  display: block;
+}
