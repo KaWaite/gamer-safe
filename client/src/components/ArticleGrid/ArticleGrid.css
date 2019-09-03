@@ -1,0 +1,18 @@
+.article-main {
+  padding: 0;
+  margin-top: 2rem;
+}
+.card {
+  background: none;
+  box-shadow: none;
+}
+.article-picture {
+  background-image: url("../../images/cp2077.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  padding-bottom: 10px;
+  text-align: center;
+  margin: 0;
+}

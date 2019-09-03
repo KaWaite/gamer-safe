@@ -14,7 +14,7 @@ import {
 } from "@rmwc/top-app-bar";
 import { TextField } from "@rmwc/textfield";
 import { Avatar } from "@rmwc/avatar";
-import { Button } from "@rmwc/button";
+// import { Button } from "@rmwc/button";
 import { Typography } from "@rmwc/typography";
 
 // CSS
@@ -43,33 +43,33 @@ export default class NavBar extends Component {
     return (
       <>
         {/* <Modal open={this.state.open} toggle={this.toggle} /> */}
-        <TopAppBar id="nav-bar">
+        <TopAppBar id="nav-bar" dense>
           <TopAppBarRow className="nav-bar-content">
             <TopAppBarSection alignStart>
               {/* <Button onClick={this.toggle}> */}
               <Logo />
               {/* </Button> */}
-
-              {/* <TopAppBarActionItem icon="mood" /> */}
               <TopAppBarTitle>
-                <Typography use="headline4">gamerSafe</Typography>
+                <Typography use="headline6">gamerSafe</Typography>
               </TopAppBarTitle>
             </TopAppBarSection>
-            <TopAppBarSection>
-              <TextField fullwidth label="search database" id="search" />
-            </TopAppBarSection>
+            {/* <TopAppBarSection>
+              <TextField
+                outlined
+                placeholder="search database"
+                id="search"
+                trailingIcon="search"
+              />
+            </TopAppBarSection> */}
             <TopAppBarSection alignEnd>
               {/* <TopAppBarActionItem icon="favorite" /> */}
-              <TopAppBarActionItem
-                icon={
-                  <Avatar
-                    src={require("../../images/avatar.png")}
-                    size="large"
-                    name="SilentHill"
-                  />
-                }
+              <Avatar
+                src={require("../../images/avatar.png")}
+                size="xlarge"
+                name="SilentHill"
+                interactive
+                // onClick={() => console.log("clicked")}
               />
-              {/* {/* <TopAppBarActionItem icon="star" /> */}
             </TopAppBarSection>
           </TopAppBarRow>
         </TopAppBar>

@@ -4,7 +4,9 @@ import "./App.css";
 
 import NavBar from "./components/NavBar/NavBar";
 import MainStory from "./components/Main/MainStory";
+import ArticleGrid from "./components/ArticleGrid/ArticleGrid";
 import SecondaryContent from "./components/SecondaryContent/SecondaryContent";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,8 +19,10 @@ function App() {
             <NavBar />
             <div className="main-content">
               <MainStory />
+              <ArticleGrid />
               <SecondaryContent />
             </div>
+            <Footer />
           </div>
         )}
       />

@@ -88,39 +88,43 @@ export default class Trending extends Component {
           <CollapsibleList
             handle={
               <SimpleListItem
-                text="Icecream"
-                graphic="star"
+                text="XBOX One"
+                graphic="local_pizza"
                 metaIcon="chevron_right"
               />
             }
           >
-            <SimpleListItem text="Vanilla" />
-            <SimpleListItem text="Chocolate" />
-            <CollapsibleList
-              handle={
-                <SimpleListItem
-                  text="Nested Collapsible"
-                  graphic="touch_app"
-                  metaIcon="chevron_right"
-                />
-              }
-            >
-              <SimpleListItem text="Orange" />
-              <SimpleListItem text="Strawberry" />
-              <SimpleListItem text="Blueberry" />
-            </CollapsibleList>
+            <SimpleListItem>1. {this.state.switchGames[0]}</SimpleListItem>
+            <SimpleListItem>2. {this.state.switchGames[1]}</SimpleListItem>
+            <SimpleListItem>3. {this.state.switchGames[2]}</SimpleListItem>
+            <SimpleListItem>4. {this.state.switchGames[3]}</SimpleListItem>
+            <SimpleListItem>5. {this.state.switchGames[4]}</SimpleListItem>
+            <SimpleListItem>6. {this.state.switchGames[5]}</SimpleListItem>
+            <SimpleListItem>7. {this.state.switchGames[6]}</SimpleListItem>
+            <SimpleListItem>8. {this.state.switchGames[7]}</SimpleListItem>
+            <SimpleListItem>9. {this.state.switchGames[8]}</SimpleListItem>
+            <SimpleListItem>10. {this.state.switchGames[9]}</SimpleListItem>
           </CollapsibleList>
-
           <CollapsibleList
-            open
             handle={
               <SimpleListItem
-                text="Custom Content, forced open"
-                graphic="help"
+                text="PS Vita"
+                graphic="local_pizza"
                 metaIcon="chevron_right"
               />
             }
-          ></CollapsibleList>
+          >
+            <SimpleListItem>1. {this.state.switchGames[0]}</SimpleListItem>
+            <SimpleListItem>2. {this.state.switchGames[1]}</SimpleListItem>
+            <SimpleListItem>3. {this.state.switchGames[2]}</SimpleListItem>
+            <SimpleListItem>4. {this.state.switchGames[3]}</SimpleListItem>
+            <SimpleListItem>5. {this.state.switchGames[4]}</SimpleListItem>
+            <SimpleListItem>6. {this.state.switchGames[5]}</SimpleListItem>
+            <SimpleListItem>7. {this.state.switchGames[6]}</SimpleListItem>
+            <SimpleListItem>8. {this.state.switchGames[7]}</SimpleListItem>
+            <SimpleListItem>9. {this.state.switchGames[8]}</SimpleListItem>
+            <SimpleListItem>10. {this.state.switchGames[9]}</SimpleListItem>
+          </CollapsibleList>
         </List>
       </>
     );
