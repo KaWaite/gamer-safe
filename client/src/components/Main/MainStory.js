@@ -16,7 +16,7 @@ export default function MainStory() {
     <Grid className="main">
       <GridCell desktop={8} tablet={12} className="main-cell">
         <GridInner className="inner">
-          <GridCell span={3}>
+          <GridCell span={4}>
             <Typography use="headline4" className="title">
               The Last Of Us Pt.II Release Date Reveiled
             </Typography>

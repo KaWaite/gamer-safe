@@ -1,5 +1,6 @@
 import React from "react";
 import Trending from "../Trending/Trending";
+import TabList from "../TabList/TabList";
 import { Grid, GridInner, GridCell } from "@rmwc/grid";
 import { Typography } from "@rmwc/typography";
 
@@ -9,16 +10,13 @@ import "./SecondaryContent.css";
 
 export default function SecondaryContent() {
   return (
-    <Grid>
-      <GridCell span={12}>
-        <GridInner className="inner">
-          <GridCell span={4}>
-            <Trending />
-          </GridCell>
-          <GridCell span={8} className="TBD">
-            <Typography use="headline2">TBD</Typography>
-          </GridCell>
-        </GridInner>
+    <Grid className="secondary-main">
+      <GridCell span={4}>
+        <Trending />
+      </GridCell>
+      <GridCell span={8} className="TBD">
+        {/* <Typography use="headline2">TBD</Typography> */}
+        <TabList />
       </GridCell>
     </Grid>
   );

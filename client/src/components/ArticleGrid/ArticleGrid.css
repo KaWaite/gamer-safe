@@ -6,13 +6,28 @@
   background: none;
   box-shadow: none;
 }
-.article-picture {
-  background-image: url("../../images/cp2077.jpg");
+.article-picture1 {
+  background-image: url("../../images/ffviiRemake.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.article-picture2 {
+  background-image: url("../../images/gears5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.article-picture3 {
+  background-image: url("../../images/ffviiRemake.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.article-picture4 {
+  background-image: url("../../images/avatar.png");
   background-position: center;
   background-size: cover;
 }
 .title {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   text-align: center;
   margin: 0;
 }

@@ -65,7 +65,7 @@ export default class NavBar extends Component {
               {/* <TopAppBarActionItem icon="favorite" /> */}
               <Avatar
                 src={require("../../images/avatar.png")}
-                size="xlarge"
+                size="large"
                 name="SilentHill"
                 interactive
                 // onClick={() => console.log("clicked")}

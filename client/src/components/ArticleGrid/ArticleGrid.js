@@ -15,44 +15,43 @@ import "./ArticleGrid.css";
 export default function ArticleGrid() {
   return (
     <Grid className="article-main">
-      <GridCell desktop={3} tablet={6} className="article-main-cell">
+      <GridCell desktop={3} tablet={4} className="article-main-cell">
         <Card className="card">
           <CardPrimaryAction>
-            <CardMedia sixteenByNine className="article-picture" />
+            <CardMedia sixteenByNine className="article-picture1" />
             <Typography use="headline5" tag="h2" className="title">
-              A game title
+              Final Fantasy VII Remake
             </Typography>
           </CardPrimaryAction>
         </Card>
       </GridCell>
-      <GridCell desktop={3} tablet={6} className="article-main-cell">
+      <GridCell desktop={3} tablet={4} className="article-main-cell">
         <Card className="card">
           <CardPrimaryAction>
-            <CardMedia sixteenByNine className="article-picture" />
+            <CardMedia sixteenByNine className="article-picture2" />
             <Typography use="headline5" tag="h2" className="title">
-              A game title
+              Gears of War 5
             </Typography>
           </CardPrimaryAction>
         </Card>
       </GridCell>
-      <GridCell desktop={3} tablet={6} className="article-main-cell">
+      <GridCell desktop={3} tablet={4} className="article-main-cell">
         <Card className="card">
           <CardPrimaryAction>
-            <CardMedia sixteenByNine className="article-picture" />
+            <CardMedia sixteenByNine className="article-picture3" />
             <Typography use="headline5" tag="h2" className="title">
-              A game title
+              Dragon Quest Builders X
             </Typography>
           </CardPrimaryAction>
         </Card>
       </GridCell>
-      <GridCell desktop={3} tablet={6} className="article-main-cell">
+      <GridCell desktop={3} tablet={4} className="article-main-cell">
         <Card className="card">
           <CardPrimaryAction>
-            <CardMedia sixteenByNine className="article-picture">
-              <Typography use="headline5" tag="h2" className="title">
-                A game title
-              </Typography>
-            </CardMedia>
+            <CardMedia sixteenByNine className="article-picture4" />
+            <Typography use="headline5" tag="h2" className="title">
+              Pokemon Goldie Lockes
+            </Typography>
           </CardPrimaryAction>
         </Card>
       </GridCell>
