@@ -1,8 +1,8 @@
 import React from "react";
 import Trending from "../Trending/Trending";
 import TabList from "../TabList/TabList";
-import { Grid, GridInner, GridCell } from "@rmwc/grid";
-import { Typography } from "@rmwc/typography";
+import { Grid, GridCell } from "@rmwc/grid";
+// import { Typography } from "@rmwc/typography";
 
 // CSS
 import "@material/layout-grid/dist/mdc.layout-grid.css";

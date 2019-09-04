@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, GridInner, GridCell } from "@rmwc/grid";
 import { Typography } from "@rmwc/typography";
-import { Card, CardMedia, CardPrimaryAction } from "@rmwc/card";
+// import { Card, CardMedia, CardPrimaryAction } from "@rmwc/card";
 
 import "@material/layout-grid/dist/mdc.layout-grid.css";
 import "@material/typography/dist/mdc.typography.css";
